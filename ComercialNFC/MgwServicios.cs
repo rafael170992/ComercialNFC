@@ -51,7 +51,7 @@ namespace ComercialNFC
 
 
 
-        }
+        } // Fin declaración de constantes
 
 
         #region ESTRUCTURA DE DOCUMENTOS
@@ -524,7 +524,7 @@ namespace ComercialNFC
 
         #endregion
 
-        #region Funciones Cliente
+        #region FUNCIONES CLIENTE
 
         [DllImport("MGWServicios.DLL")]
         public static extern int fPosPrimerCteProv();
@@ -571,7 +571,7 @@ namespace ComercialNFC
 
         #endregion
 
-        #region Funciones de Productos
+        #region FUNCIONES DE PRODUCTOS
 
         [DllImport("MGWServicios.DLL")]
         public static extern Int32 fPosPrimerProducto();
