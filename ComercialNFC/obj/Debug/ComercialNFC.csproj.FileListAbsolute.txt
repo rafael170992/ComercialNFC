@@ -9,3 +9,14 @@ C:\ProyectosSDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.csproj.Generate
 C:\ProyectosSDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.csproj.CoreCompileInputs.cache
 C:\ProyectosSDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.exe
 C:\ProyectosSDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.pdb
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.csprojAssemblyReference.cache
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.Form1.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.Properties.Resources.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.SplashScreen.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.csproj.GenerateResource.cache
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.csproj.CoreCompileInputs.cache
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.exe
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.pdb
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.exe.config
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.exe
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.pdb

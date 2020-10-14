@@ -639,33 +639,6 @@ namespace ComercialNFC
 
         #endregion
 
-        #region UNIDADES DE MEDIDA Y PESO
-
-
-        [DllImport("MGWServicios.DLL")]
-        public static extern Int32 fBuscaIdUnidad(int aIdUnidad);
-
-        [DllImport("MGWServicios.DLL")]
-        public static extern Int32 fLeeDatoUnidad(string aCampo, StringBuilder aValor, int aLen);
-
-
-    
-     [DllImport("MGWServicios.DLL")]
-        public static extern int fInsertaDireccion();
-
-    [DllImport("MGWServicios.DLL")]
-        public static extern int fSetDatoDireccion(string aCampo, string aValor);
-
-    [DllImport("MGWServicios.DLL")]
-        public static extern int fGuardaDireccion();
-
-
-
-
-
-
-        #endregion
-
         #region FUNCIONES DOCUMENTOS
 
         [DllImport("MGWServicios.DLL")]
