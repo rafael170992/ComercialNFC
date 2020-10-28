@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAdminpaq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdminpaq.Designer.cs">
+      <DependentUpon>FormAdminpaq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormComercial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormComercial.Designer.cs">
+      <DependentUpon>FormComercial.cs</DependentUpon>
+    </Compile>
     <Compile Include="MgwServicios.cs" />
     <Compile Include="Mgw_SDK.cs" />
     <Compile Include="Program.cs" />
@@ -64,6 +76,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdminpaq.resx">
+      <DependentUpon>FormAdminpaq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormComercial.resx">
+      <DependentUpon>FormComercial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

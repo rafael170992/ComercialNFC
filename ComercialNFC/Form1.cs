@@ -28,5 +28,20 @@ namespace ComercialNFC
             Application.Exit();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormComercial formComercial = new FormComercial();
+            formComercial.Show();
+            this.Hide();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormAdminpaq formAdminpaq = new FormAdminpaq();
+            formAdminpaq.Show();
+            this.Hide();
+        }
     }
 }
