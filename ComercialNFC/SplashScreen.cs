@@ -36,7 +36,7 @@ namespace ComercialNFC
                 timer1.Enabled = false;
                 timer1.Stop();
                
-                Form1 formPrincipal = new Form1();
+                Formsistemas formPrincipal = new Formsistemas();
                 formPrincipal.Show();
                 this.Hide();
                 

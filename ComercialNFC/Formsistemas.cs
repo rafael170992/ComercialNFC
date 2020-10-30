@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace ComercialNFC
 {
-    public partial class Form1 : Form
+    public partial class Formsistemas : Form
     {
-        public Form1()
+        public int SistemaSeleccionado = 0;
+        public Formsistemas()
         {
             InitializeComponent();
             this.FormClosing += Form1_FormClosing;
@@ -31,17 +32,20 @@ namespace ComercialNFC
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SistemaSeleccionado = 1;
             FuncionesComercial.IniciaConexionComercial();
-            FormComercial formComercial = new FormComercial();
-            formComercial.Show();
+            FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
+            formEmpresas.Show();
             this.Hide();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FormAdminpaq formAdminpaq = new FormAdminpaq();
-            formAdminpaq.Show();
+            SistemaSeleccionado = 2;
+            FuncionesAdminpaq.IniciaConexionAdminpaq();
+            FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
+            formEmpresas.Show();
             this.Hide();
         }
     }

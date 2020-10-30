@@ -46,12 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Empresas.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="FormComercialPremium.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FormComercialPremium.Designer.cs">
+      <DependentUpon>FormComercialPremium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Empresas.cs" />
+    <Compile Include="Formsistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsistemas.Designer.cs">
+      <DependentUpon>Formsistemas.cs</DependentUpon>
     </Compile>
     <Compile Include="FormAdminpaq.cs">
       <SubType>Form</SubType>
@@ -59,12 +65,13 @@
     <Compile Include="FormAdminpaq.Designer.cs">
       <DependentUpon>FormAdminpaq.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormComercial.cs">
+    <Compile Include="FormEmpresas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormComercial.Designer.cs">
-      <DependentUpon>FormComercial.cs</DependentUpon>
+    <Compile Include="FormEmpresas.Designer.cs">
+      <DependentUpon>FormEmpresas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncionesAdminpaq.cs" />
     <Compile Include="FuncionesComercial.cs" />
     <Compile Include="MgwServicios.cs" />
     <Compile Include="Mgw_SDK.cs" />
@@ -76,14 +83,17 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Formsistemas.resx">
+      <DependentUpon>Formsistemas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAdminpaq.resx">
       <DependentUpon>FormAdminpaq.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormComercial.resx">
-      <DependentUpon>FormComercial.cs</DependentUpon>
+    <EmbeddedResource Include="FormComercialPremium.resx">
+      <DependentUpon>FormComercialPremium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmpresas.resx">
+      <DependentUpon>FormEmpresas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

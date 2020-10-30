@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace ComercialNFC
 {
-    public partial class FormAdminpaq : Form
+    public partial class FormComercialPremium : Form
     {
-        public FormAdminpaq()
+        public FormComercialPremium()
         {
             InitializeComponent();
             this.FormClosing += Form1_FormClosing;
-
         }
 
-        private void formAdminpaq_Load(object sender, EventArgs e)
+        private void FormComercialPremium_Load(object sender, EventArgs e)
         {
 
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            FuncionesAdminpaq.CerrarEmpresaAdminpaq();
-            FuncionesAdminpaq.TeminaConexionAdminpaq();
+            FuncionesComercial.CerrarEmpresa();
+            FuncionesComercial.TeminaConexionComercial();
             Application.Exit();
 
         }
+
     }
 }

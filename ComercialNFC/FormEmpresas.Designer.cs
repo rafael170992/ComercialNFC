@@ -1,6 +1,6 @@
 ﻿namespace ComercialNFC
 {
-    partial class FormComercial
+    partial class FormEmpresas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormComercial));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEmpresas));
             this.GridEmpresas = new System.Windows.Forms.DataGridView();
             this.Empresa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.BaseDeDatos = new System.Windows.Forms.DataGridViewTextBoxColumn();

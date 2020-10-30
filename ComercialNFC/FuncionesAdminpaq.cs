@@ -1,39 +1,36 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace ComercialNFC
 {
-    class FuncionesComercial
+    class FuncionesAdminpaq
     {
 
-        public static void IniciaConexionComercial()
+        public static void IniciaConexionAdminpaq()
         {
             int numeroDeError = 0;
-            string sistema = "CONTPAQ I COMERCIAL";
-            string ruta = @"C:\Program Files (x86)\Compac\COMERCIAL";
+            string sistema = "AdminPAQ";
+            string ruta = @"C:\Program Files (x86)\Compacw\AdminPAQ";
 
-            MgwServicios.SetCurrentDirectory(ruta);
-            numeroDeError = MgwServicios.fSetNombrePAQ(sistema);
+            Mgw_SDK.SetCurrentDirectory(ruta);
+            numeroDeError = Mgw_SDK.fSetNombrePAQ(sistema);
 
             if (numeroDeError != 0)
             {
-                MgwServicios.rError(numeroDeError);
+                Mgw_SDK.rError(numeroDeError);
             }
             else
             {
-               
+
             }
 
         }
-
-        public static void TeminaConexionComercial()
+        public static void TeminaConexionAdminpaq()
         {
-            MgwServicios.fTerminaSDK();
+            Mgw_SDK.fTerminaSDK();
 
         }
 
@@ -49,7 +46,7 @@ namespace ComercialNFC
             {
                 StringBuilder nombreDeEmpresa = new StringBuilder(255);
                 StringBuilder rutaDeEmpresa = new StringBuilder(255);
-                errorListadoEmpresas = MgwServicios.fPosSiguienteEmpresa(ref idEmpresas, nombreDeEmpresa, rutaDeEmpresa);
+                errorListadoEmpresas = Mgw_SDK.fPosSiguienteEmpresa(ref idEmpresas, nombreDeEmpresa, rutaDeEmpresa);
 
                 if (errorListadoEmpresas != 0) // si es diferente de 0 significa que ya no hay empresas
                 {
@@ -81,22 +78,23 @@ namespace ComercialNFC
 
             int errorAbrirEmpresa = 0;
 
-          errorAbrirEmpresa = MgwServicios.fAbreEmpresa(rutaEmpresa);
-            
+            errorAbrirEmpresa = Mgw_SDK.fAbreEmpresa(rutaEmpresa);
+
             if (errorAbrirEmpresa != 0)
             {
-               
-                MgwServicios.rError(errorAbrirEmpresa);
+
+                Mgw_SDK.rError(errorAbrirEmpresa);
 
             }
-         
+
 
             return errorAbrirEmpresa;
         }
 
-        public static void CerrarEmpresa() {
+        public static void CerrarEmpresaAdminpaq()
+        {
 
-            MgwServicios.fCierraEmpresa();
+            Mgw_SDK.fCierraEmpresa();
         }
 
 
