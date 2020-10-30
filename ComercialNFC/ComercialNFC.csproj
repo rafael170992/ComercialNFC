@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empresas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +65,7 @@
     <Compile Include="FormComercial.Designer.cs">
       <DependentUpon>FormComercial.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncionesComercial.cs" />
     <Compile Include="MgwServicios.cs" />
     <Compile Include="Mgw_SDK.cs" />
     <Compile Include="Program.cs" />

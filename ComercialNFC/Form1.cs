@@ -31,6 +31,7 @@ namespace ComercialNFC
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FuncionesComercial.IniciaConexionComercial();
             FormComercial formComercial = new FormComercial();
             formComercial.Show();
             this.Hide();

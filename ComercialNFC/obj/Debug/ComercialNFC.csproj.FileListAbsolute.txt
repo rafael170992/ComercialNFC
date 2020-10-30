@@ -20,5 +20,5 @@ C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.pdb
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.exe.config
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.exe
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\bin\Debug\ComercialNFC.pdb
-C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormComercial.resources
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormAdminpaq.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormComercial.resources
