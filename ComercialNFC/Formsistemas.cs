@@ -32,6 +32,8 @@ namespace ComercialNFC
 
         private void button1_Click(object sender, EventArgs e)
         {
+            BotonComercial.Enabled = false;
+            BotonAdminpaq.Enabled = false;
             SistemaSeleccionado = 1;
             FuncionesComercial.IniciaConexionComercial();
             FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
@@ -42,11 +44,15 @@ namespace ComercialNFC
 
         private void button2_Click(object sender, EventArgs e)
         {
+            BotonComercial.Enabled = false;
+            BotonAdminpaq.Enabled = false;
             SistemaSeleccionado = 2;
             FuncionesAdminpaq.IniciaConexionAdminpaq();
             FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
             formEmpresas.Show();
             this.Hide();
         }
+
+      
     }
 }
