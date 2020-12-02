@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormDesarrollosInegnia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDesarrollosInegnia.Designer.cs">
+      <DependentUpon>FormDesarrollosInegnia.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormComercialPremium.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormDesarrollosInegnia.resx">
+      <DependentUpon>FormDesarrollosInegnia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formsistemas.resx">
       <DependentUpon>Formsistemas.cs</DependentUpon>
     </EmbeddedResource>

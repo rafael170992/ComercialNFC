@@ -212,6 +212,36 @@ namespace ComercialNFC
         }
 
 
+        [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi, Pack = 4)]
+        public struct RegMovimientoCDesctos
+        {
+
+
+            public int aConsecutivo;
+            public double aUnidades;
+            public double aPrecio;
+            public double aCosto;
+            public double aPorcDescto1;
+            public double aImporteDescto1;
+            public double aPorcDescto2;
+            public double aImporteDescto2;
+            public double aPorcDescto3;
+            public double aImporteDescto3;
+            public double aPorcDescto4;
+            public double aImporteDescto4;
+            public double aPorcDescto5;
+            public double aImporteDescto5;
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = constantes.kLongCodigo)]
+            public String aCodProdSer;
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = constantes.kLongCodigo)]
+            public String aCodAlmacen;
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = constantes.kLongReferencia)]
+            public String aReferencia;
+            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = constantes.kLongCodigo)]
+            public String aCodClasificacion;
+
+        }
+
         #endregion
 
         #region STRUCTURA DE PRODUCTOS
@@ -804,6 +834,9 @@ namespace ComercialNFC
                                                           int aIdMoneda,
                                                           [MarshalAs(UnmanagedType.LPStr)] string aFecha);
 
+
+        [DllImport("MGWServicios.DLL")]
+        public static extern Int32 fAltaMovimientoCDesct(Int32 aIdDocumento, ref Int32 aIdMovimiento, ref RegMovimientoCDesctos astMovimiento);
 
 
 

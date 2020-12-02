@@ -23,3 +23,4 @@ C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormAdm
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormEmpresas.resources
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormComercialPremium.resources
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.Formsistemas.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormDesarrollosInegnia.resources

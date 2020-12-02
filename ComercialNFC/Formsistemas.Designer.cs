@@ -58,13 +58,14 @@
             this.BotonComercial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonComercial.ForeColor = System.Drawing.SystemColors.Window;
             this.BotonComercial.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.BotonComercial.Location = new System.Drawing.Point(12, 9);
+            this.BotonComercial.Location = new System.Drawing.Point(18, 14);
+            this.BotonComercial.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotonComercial.Name = "BotonComercial";
-            this.BotonComercial.Size = new System.Drawing.Size(378, 72);
+            this.BotonComercial.Size = new System.Drawing.Size(567, 111);
             this.BotonComercial.TabIndex = 0;
             this.BotonComercial.Text = "Comercial Premium";
             this.BotonComercial.UseVisualStyleBackColor = false;
-            this.BotonComercial.Click += new System.EventHandler(this.button1_Click);
+            this.BotonComercial.Click += new System.EventHandler(this.BotonComercial_Click);
             // 
             // BotonAdminpaq
             // 
@@ -78,13 +79,14 @@
             this.BotonAdminpaq.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.BotonAdminpaq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonAdminpaq.ForeColor = System.Drawing.SystemColors.Window;
-            this.BotonAdminpaq.Location = new System.Drawing.Point(12, 81);
+            this.BotonAdminpaq.Location = new System.Drawing.Point(18, 125);
+            this.BotonAdminpaq.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotonAdminpaq.Name = "BotonAdminpaq";
-            this.BotonAdminpaq.Size = new System.Drawing.Size(378, 78);
+            this.BotonAdminpaq.Size = new System.Drawing.Size(567, 120);
             this.BotonAdminpaq.TabIndex = 1;
             this.BotonAdminpaq.Text = "Adminpaq";
             this.BotonAdminpaq.UseVisualStyleBackColor = false;
-            this.BotonAdminpaq.Click += new System.EventHandler(this.button2_Click);
+            this.BotonAdminpaq.Click += new System.EventHandler(this.BotonAdminpaq_Click);
             // 
             // BotonFacturaElectronica
             // 
@@ -98,9 +100,10 @@
             this.BotonFacturaElectronica.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(47)))), ((int)(((byte)(137)))));
             this.BotonFacturaElectronica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotonFacturaElectronica.ForeColor = System.Drawing.SystemColors.Window;
-            this.BotonFacturaElectronica.Location = new System.Drawing.Point(12, 159);
+            this.BotonFacturaElectronica.Location = new System.Drawing.Point(18, 245);
+            this.BotonFacturaElectronica.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BotonFacturaElectronica.Name = "BotonFacturaElectronica";
-            this.BotonFacturaElectronica.Size = new System.Drawing.Size(378, 80);
+            this.BotonFacturaElectronica.Size = new System.Drawing.Size(567, 123);
             this.BotonFacturaElectronica.TabIndex = 5;
             this.BotonFacturaElectronica.Text = "Factura Electrónica";
             this.BotonFacturaElectronica.UseVisualStyleBackColor = false;
@@ -112,9 +115,10 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(22, 97);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 149);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 47);
+            this.pictureBox1.Size = new System.Drawing.Size(69, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -127,9 +131,10 @@
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(22, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(33, 35);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(69, 66);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -141,9 +146,10 @@
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(22, 181);
+            this.pictureBox3.Location = new System.Drawing.Point(33, 278);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 43);
+            this.pictureBox3.Size = new System.Drawing.Size(69, 66);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
@@ -158,12 +164,14 @@
             this.botonDesarrollosIngenia.FlatAppearance.BorderSize = 0;
             this.botonDesarrollosIngenia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.botonDesarrollosIngenia.ForeColor = System.Drawing.SystemColors.Window;
-            this.botonDesarrollosIngenia.Location = new System.Drawing.Point(12, 239);
+            this.botonDesarrollosIngenia.Location = new System.Drawing.Point(18, 368);
+            this.botonDesarrollosIngenia.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.botonDesarrollosIngenia.Name = "botonDesarrollosIngenia";
-            this.botonDesarrollosIngenia.Size = new System.Drawing.Size(378, 80);
+            this.botonDesarrollosIngenia.Size = new System.Drawing.Size(567, 123);
             this.botonDesarrollosIngenia.TabIndex = 10;
             this.botonDesarrollosIngenia.Text = "Herramientas Ingenia";
             this.botonDesarrollosIngenia.UseVisualStyleBackColor = false;
+            this.botonDesarrollosIngenia.Click += new System.EventHandler(this.botonDesarrollosIngenia_Click);
             // 
             // pictureBox4
             // 
@@ -172,19 +180,20 @@
             this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(22, 257);
+            this.pictureBox4.Location = new System.Drawing.Point(33, 395);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 43);
+            this.pictureBox4.Size = new System.Drawing.Size(69, 66);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
             // Formsistemas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(398, 329);
+            this.ClientSize = new System.Drawing.Size(597, 506);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.botonDesarrollosIngenia);
             this.Controls.Add(this.pictureBox3);
@@ -195,7 +204,6 @@
             this.Controls.Add(this.BotonAdminpaq);
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Formsistemas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

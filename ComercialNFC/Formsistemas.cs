@@ -30,27 +30,46 @@ namespace ComercialNFC
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BotonComercial_Click(object sender, EventArgs e)
         {
             BotonComercial.Enabled = false;
             BotonAdminpaq.Enabled = false;
+            BotonFacturaElectronica.Enabled = false;
+            botonDesarrollosIngenia.Enabled = false;
             SistemaSeleccionado = 1;
             FuncionesComercial.IniciaConexionComercial();
             FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
             formEmpresas.Show();
             this.Hide();
 
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void BotonAdminpaq_Click(object sender, EventArgs e)
         {
             BotonComercial.Enabled = false;
             BotonAdminpaq.Enabled = false;
+            BotonFacturaElectronica.Enabled = false;
+            botonDesarrollosIngenia.Enabled = false;
             SistemaSeleccionado = 2;
             FuncionesAdminpaq.IniciaConexionAdminpaq();
             FormEmpresas formEmpresas = new FormEmpresas(SistemaSeleccionado);
+        
+
             formEmpresas.Show();
             this.Hide();
+
+        }
+
+        private void botonDesarrollosIngenia_Click(object sender, EventArgs e)
+        {
+            BotonComercial.Enabled = false;
+            BotonAdminpaq.Enabled = false;
+            BotonFacturaElectronica.Enabled = false;
+            botonDesarrollosIngenia.Enabled = false;
+       
+            //Desa
+
         }
 
       
