@@ -24,3 +24,4 @@ C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormEmp
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormComercialPremium.resources
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.Formsistemas.resources
 C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.FormDesarrollosInegnia.resources
+C:\ProyectosIngenia\SDK\ComercialNFC\ComercialNFC\obj\Debug\ComercialNFC.PruebaNotaCreditoRep.resources

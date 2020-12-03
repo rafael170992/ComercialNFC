@@ -38,7 +38,7 @@ namespace ComercialNFC
 
         private void pruebaNotaDeCreditoREpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-         
+            AbrirForms<PruebaNotaCreditoRep>();
             
         }
 
