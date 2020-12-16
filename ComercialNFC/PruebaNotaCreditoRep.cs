@@ -74,6 +74,8 @@ namespace ComercialNFC
             documento.aCodigoCteProv = CodigoCliente.Text;
             documento.aNumMoneda = 1;
             documento.aAfecta = 1;
+      
+         
             documento.aCodConcepto = CodigoConcepto.Text;
             conceptoTimbrado = CodigoConcepto.Text;
 
@@ -83,9 +85,9 @@ namespace ComercialNFC
             {
 
                 MgwServicios.fEditarDocumento();
-                // errorDocumento = MgwServicios.fSetDatoDocumento("CIDDOCUMENTOORIGEN","130");
-                //   errorDocumento = MgwServicios.fSetDatoDocumento("CMETODOPAG", "99");
-                // errorDocumento = MgwServicios.fSetDatoDocumento("CCANTPARCI", "01");
+                errorDocumento = MgwServicios.fSetDatoDocumento("COBSERVACIONES", "esta es mi observacíon");
+               // errorDocumento = MgwServicios.fSetDatoDocumento("CMETODOPAG", "99");
+               // errorDocumento = MgwServicios.fSetDatoDocumento("CCANTPARCI", "01");
                 MgwServicios.fGuardaDocumento();
 
                 // for (int i = 0; i < 500; i++)
@@ -98,6 +100,7 @@ namespace ComercialNFC
                 movimiento.aCosto = 30;
                // movimiento.aUnidades = 1;
                 movimiento.aCodClasificacion = "31";
+                
                 movimiento.aUnidades = double.Parse(Unidades.Text);
 
                 errorMovimiento = MgwServicios.fAltaMovimiento(idDocumento, ref idMovimiento, ref movimiento);
@@ -109,6 +112,7 @@ namespace ComercialNFC
                     errorDocumento = MgwServicios.fSetDatoMovimiento("CIDALMACEN", "2");
                     MgwServicios.fGuardaMovimiento();
                     MessageBox.Show("Documento y movimiento creado con exito");
+                    MgwServicios.fDesbloqueaDocumento();
 
                 }
                 else
@@ -141,7 +145,7 @@ namespace ComercialNFC
             }
             else
             {
-                MessageBox.Show("Se genero el error con el codigo : " + errorTimbrado);
+                MgwServicios.rError(errorTimbrado);
             }
 
         }
@@ -178,6 +182,7 @@ namespace ComercialNFC
             MgwServicios.lError = MgwServicios.fAltaDocumentoCargoAbono(ref DoctoCargoAbono);
             if (MgwServicios.lError != 0)
             {
+                
                 MgwServicios.rError(MgwServicios.lError);
             }
             else
@@ -220,9 +225,9 @@ namespace ComercialNFC
 
         public void CreaReciboElectronicoDePago()
         {
+            folio = 0;
             int lerror = 0;
             lerror = MgwServicios.fCuentaBancariaEmpresaDoctos("1234567890123456");
-            double folio = 0;
             MgwServicios.tDocumento DoctoCargoAbono = new MgwServicios.tDocumento();
             MgwServicios.RegLlaveDoc saldar = new MgwServicios.RegLlaveDoc();
             MgwServicios.RegLlaveDoc pago = new MgwServicios.RegLlaveDoc();

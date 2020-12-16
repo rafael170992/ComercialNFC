@@ -860,6 +860,9 @@ namespace ComercialNFC
             return sMensaje.ToString();
         }
 
+        [DllImport("MGWServicios.DLL")]
+        public static extern Int32 fDesbloqueaDocumento();
+
         #endregion
 
 
