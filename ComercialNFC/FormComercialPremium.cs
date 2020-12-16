@@ -31,5 +31,27 @@ namespace ComercialNFC
 
         }
 
+
+        public void AbrirForms<MiForm>() where MiForm : Form, new()
+        {
+            Form formulario;
+            formulario = panelDeControl.Controls.OfType<MiForm>().FirstOrDefault();
+            if (formulario == null)
+            {
+                formulario = new MiForm();
+                formulario.TopLevel = false;
+                formulario.FormBorderStyle = FormBorderStyle.None;
+                formulario.Dock = DockStyle.Fill;
+                panelDeControl.Controls.Add(formulario);
+                panelDeControl.Tag = formulario;
+                formulario.Show();
+                formulario.BringToFront();
+            }
+            else
+            {
+                formulario.BringToFront();
+            }
+        }
+
     }
 }
