@@ -31,6 +31,11 @@ namespace ComercialNFC
 
         }
 
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirForms<FormAltaCliente>();
+        }
+
 
         public void AbrirForms<MiForm>() where MiForm : Form, new()
         {
@@ -53,5 +58,6 @@ namespace ComercialNFC
             }
         }
 
+   
     }
 }

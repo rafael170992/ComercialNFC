@@ -11,6 +11,15 @@ namespace ComercialNFC
     class FuncionesComercial
     {
 
+        public static void AltaCliente()
+        {
+            int errorAltaCliente = 0;
+            int idCliente = 0;
+        }
+
+
+
+
         public static void IniciaConexionComercial()
         {
             int numeroDeError = 0;
